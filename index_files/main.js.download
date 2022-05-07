@@ -1,0 +1,33 @@
+import AosModule from "./modules/AosModule.js";
+import MagnificModule from "./modules/MagnificModule.js";
+import SwiperModule from "./modules/SwiperModule.js";
+import MenuModule from "./modules/MenuModule.js";
+import ScrollTopModule from "./modules/ScrollTopModule.js";
+import ScrollToSectionModule from "./modules/ScrollToSectionModule.js";
+import CountingModule from "./modules/CountingModule.js";
+import CountDownDateModule from "./modules/CountDownDateModule.js";
+import LightGalleryModule from "./modules/LightGalleryModule.js";
+import SlideToggleModule from "./modules/SlideToggleModule.js";
+import tabModule from "./modules/tabModule.js";
+import VideoModule from "./modules/VideoModule.js";
+import Select2Module from "./modules/Select2Module.js";
+import HeaderModule from "./modules/HeaderModule.js";
+import InputRadioModule from "./modules/InputRadioModule.js";
+
+window.addEventListener("DOMContentLoaded", () => {
+    HeaderModule();
+    AosModule();
+    MagnificModule();
+    SwiperModule();
+    MenuModule();
+    ScrollTopModule();
+    ScrollToSectionModule();
+    CountingModule();
+    CountDownDateModule();
+    LightGalleryModule();
+    SlideToggleModule();
+    tabModule();
+    VideoModule();
+    Select2Module();
+    InputRadioModule();
+});
